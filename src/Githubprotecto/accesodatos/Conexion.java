@@ -18,7 +18,7 @@ import Githubprotecto.accesodatos.Parametro;
 public class Conexion {
 Scanner entrada = new Scanner(System.in);
     String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-    String url = "jdbc:sqlserver://192.168.100.6:1433;databaseName=Github1";
+    String url = "jdbc:sqlserver://172.30.3.147:1433;databaseName=Github1";
     String usuario = "cris";
     String conraseña = "1234";
     Connection conexion = null;
