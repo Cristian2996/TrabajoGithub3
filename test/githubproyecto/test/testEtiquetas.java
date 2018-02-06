@@ -18,7 +18,7 @@ public class testEtiquetas {
     public void pruebageneral() throws Exception{
         int filasAfectadas =0;
         IEtiquetas etiquetasDao = new ImplEtiquetas();
-        Etiquetas etiquetas = new Etiquetas(3,"Look",new Date(),new Date());
+        Etiquetas etiquetas = new Etiquetas(5,"Look",new Date(),new Date());
         try{
             filasAfectadas = etiquetasDao.insertar(etiquetas);
             System.out.println("Etiqueta ingresado!!!\n");
